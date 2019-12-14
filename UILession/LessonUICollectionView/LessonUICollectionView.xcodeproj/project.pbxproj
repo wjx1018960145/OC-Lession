@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346750241A24C119006FC843 /* ReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346750231A24C119006FC843 /* ReuseView.m */; };
+		3467502D1A24C482006FC843 /* mm0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346750261A24C482006FC843 /* mm0.jpg */; };
+		3467502E1A24C482006FC843 /* mm1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346750271A24C482006FC843 /* mm1.jpg */; };
+		3467502F1A24C482006FC843 /* mm2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346750281A24C482006FC843 /* mm2.jpg */; };
+		346750301A24C482006FC843 /* mm3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346750291A24C482006FC843 /* mm3.jpg */; };
+		346750311A24C482006FC843 /* mm4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3467502A1A24C482006FC843 /* mm4.jpg */; };
+		346750321A24C482006FC843 /* mm5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3467502B1A24C482006FC843 /* mm5.jpg */; };
+		346750331A24C482006FC843 /* mm6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3467502C1A24C482006FC843 /* mm6.jpg */; };
+		346750361A24D1B8006FC843 /* BarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346750351A24D1B8006FC843 /* BarController.m */; };
+		34ED34C41A2419720096C5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34C31A2419720096C5A6 /* main.m */; };
+		34ED34C71A2419720096C5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34C61A2419720096C5A6 /* AppDelegate.m */; };
+		34ED34C91A2419720096C5A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34ED34C81A2419720096C5A6 /* Images.xcassets */; };
+		34ED34CC1A2419720096C5A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34ED34CA1A2419720096C5A6 /* LaunchScreen.xib */; };
+		34ED34D81A2419730096C5A6 /* LessonUICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34D71A2419730096C5A6 /* LessonUICollectionViewTests.m */; };
+		34ED34E31A2419B90096C5A6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34E21A2419B90096C5A6 /* RootViewController.m */; };
+		34ED34E61A2423B10096C5A6 /* WifeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34E51A2423B10096C5A6 /* WifeCell.m */; };
+		34ED34F21A2423F50096C5A6 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34E91A2423F50096C5A6 /* EGOCache.m */; };
+		34ED34F31A2423F50096C5A6 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34EB1A2423F50096C5A6 /* EGOImageButton.m */; };
+		34ED34F41A2423F50096C5A6 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34ED1A2423F50096C5A6 /* EGOImageLoadConnection.m */; };
+		34ED34F51A2423F50096C5A6 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34EF1A2423F50096C5A6 /* EGOImageLoader.m */; };
+		34ED34F61A2423F50096C5A6 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34ED34F11A2423F50096C5A6 /* EGOImageView.m */; };
+		34ED34FA1A24280C0096C5A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34ED34F91A24280C0096C5A6 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34ED34D21A2419730096C5A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ED34B61A2419720096C5A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34ED34BD1A2419720096C5A6;
+			remoteInfo = LessonUICollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346750221A24C119006FC843 /* ReuseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseView.h; sourceTree = "<group>"; };
+		346750231A24C119006FC843 /* ReuseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReuseView.m; sourceTree = "<group>"; };
+		346750261A24C482006FC843 /* mm0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm0.jpg; sourceTree = "<group>"; };
+		346750271A24C482006FC843 /* mm1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm1.jpg; sourceTree = "<group>"; };
+		346750281A24C482006FC843 /* mm2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm2.jpg; sourceTree = "<group>"; };
+		346750291A24C482006FC843 /* mm3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm3.jpg; sourceTree = "<group>"; };
+		3467502A1A24C482006FC843 /* mm4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm4.jpg; sourceTree = "<group>"; };
+		3467502B1A24C482006FC843 /* mm5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm5.jpg; sourceTree = "<group>"; };
+		3467502C1A24C482006FC843 /* mm6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm6.jpg; sourceTree = "<group>"; };
+		346750341A24D1B8006FC843 /* BarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarController.h; sourceTree = "<group>"; };
+		346750351A24D1B8006FC843 /* BarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarController.m; sourceTree = "<group>"; };
+		34ED34BE1A2419720096C5A6 /* LessonUICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonUICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ED34C21A2419720096C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34ED34C31A2419720096C5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34ED34C51A2419720096C5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34ED34C61A2419720096C5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34ED34C81A2419720096C5A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34ED34CB1A2419720096C5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34ED34D11A2419730096C5A6 /* LessonUICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonUICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34ED34D61A2419730096C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34ED34D71A2419730096C5A6 /* LessonUICollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUICollectionViewTests.m; sourceTree = "<group>"; };
+		34ED34E11A2419B90096C5A6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34ED34E21A2419B90096C5A6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		34ED34E41A2423B10096C5A6 /* WifeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifeCell.h; sourceTree = "<group>"; };
+		34ED34E51A2423B10096C5A6 /* WifeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifeCell.m; sourceTree = "<group>"; };
+		34ED34E81A2423F50096C5A6 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		34ED34E91A2423F50096C5A6 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		34ED34EA1A2423F50096C5A6 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		34ED34EB1A2423F50096C5A6 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		34ED34EC1A2423F50096C5A6 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		34ED34ED1A2423F50096C5A6 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		34ED34EE1A2423F50096C5A6 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		34ED34EF1A2423F50096C5A6 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		34ED34F01A2423F50096C5A6 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		34ED34F11A2423F50096C5A6 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		34ED34F71A2424980096C5A6 /* wang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wang.pch; sourceTree = "<group>"; };
+		34ED34F81A2426BB0096C5A6 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		34ED34F91A24280C0096C5A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34ED34BB1A2419720096C5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED34FA1A24280C0096C5A6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ED34CE1A2419730096C5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346750251A24C476006FC843 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				346750261A24C482006FC843 /* mm0.jpg */,
+				346750271A24C482006FC843 /* mm1.jpg */,
+				346750281A24C482006FC843 /* mm2.jpg */,
+				346750291A24C482006FC843 /* mm3.jpg */,
+				3467502A1A24C482006FC843 /* mm4.jpg */,
+				3467502B1A24C482006FC843 /* mm5.jpg */,
+				3467502C1A24C482006FC843 /* mm6.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		34ED34B51A2419720096C5A6 = {
+			isa = PBXGroup;
+			children = (
+				34ED34C01A2419720096C5A6 /* LessonUICollectionView */,
+				34ED34D41A2419730096C5A6 /* LessonUICollectionViewTests */,
+				34ED34BF1A2419720096C5A6 /* Products */,
+				34ED34F91A24280C0096C5A6 /* UIKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		34ED34BF1A2419720096C5A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34ED34BE1A2419720096C5A6 /* LessonUICollectionView.app */,
+				34ED34D11A2419730096C5A6 /* LessonUICollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34ED34C01A2419720096C5A6 /* LessonUICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				346750251A24C476006FC843 /* images */,
+				346750221A24C119006FC843 /* ReuseView.h */,
+				346750231A24C119006FC843 /* ReuseView.m */,
+				34ED34E71A2423F50096C5A6 /* EGOImageView */,
+				34ED34C51A2419720096C5A6 /* AppDelegate.h */,
+				34ED34C61A2419720096C5A6 /* AppDelegate.m */,
+				34ED34C81A2419720096C5A6 /* Images.xcassets */,
+				34ED34CA1A2419720096C5A6 /* LaunchScreen.xib */,
+				34ED34C11A2419720096C5A6 /* Supporting Files */,
+				34ED34E11A2419B90096C5A6 /* RootViewController.h */,
+				34ED34E21A2419B90096C5A6 /* RootViewController.m */,
+				34ED34E41A2423B10096C5A6 /* WifeCell.h */,
+				34ED34E51A2423B10096C5A6 /* WifeCell.m */,
+				34ED34F81A2426BB0096C5A6 /* Header.h */,
+				346750341A24D1B8006FC843 /* BarController.h */,
+				346750351A24D1B8006FC843 /* BarController.m */,
+			);
+			path = LessonUICollectionView;
+			sourceTree = "<group>";
+		};
+		34ED34C11A2419720096C5A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34ED34F71A2424980096C5A6 /* wang.pch */,
+				34ED34C21A2419720096C5A6 /* Info.plist */,
+				34ED34C31A2419720096C5A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34ED34D41A2419730096C5A6 /* LessonUICollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34ED34D71A2419730096C5A6 /* LessonUICollectionViewTests.m */,
+				34ED34D51A2419730096C5A6 /* Supporting Files */,
+			);
+			path = LessonUICollectionViewTests;
+			sourceTree = "<group>";
+		};
+		34ED34D51A2419730096C5A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34ED34D61A2419730096C5A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34ED34E71A2423F50096C5A6 /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				34ED34E81A2423F50096C5A6 /* EGOCache.h */,
+				34ED34E91A2423F50096C5A6 /* EGOCache.m */,
+				34ED34EA1A2423F50096C5A6 /* EGOImageButton.h */,
+				34ED34EB1A2423F50096C5A6 /* EGOImageButton.m */,
+				34ED34EC1A2423F50096C5A6 /* EGOImageLoadConnection.h */,
+				34ED34ED1A2423F50096C5A6 /* EGOImageLoadConnection.m */,
+				34ED34EE1A2423F50096C5A6 /* EGOImageLoader.h */,
+				34ED34EF1A2423F50096C5A6 /* EGOImageLoader.m */,
+				34ED34F01A2423F50096C5A6 /* EGOImageView.h */,
+				34ED34F11A2423F50096C5A6 /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34ED34BD1A2419720096C5A6 /* LessonUICollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ED34DB1A2419730096C5A6 /* Build configuration list for PBXNativeTarget "LessonUICollectionView" */;
+			buildPhases = (
+				34ED34BA1A2419720096C5A6 /* Sources */,
+				34ED34BB1A2419720096C5A6 /* Frameworks */,
+				34ED34BC1A2419720096C5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessonUICollectionView;
+			productName = LessonUICollectionView;
+			productReference = 34ED34BE1A2419720096C5A6 /* LessonUICollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34ED34D01A2419730096C5A6 /* LessonUICollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34ED34DE1A2419730096C5A6 /* Build configuration list for PBXNativeTarget "LessonUICollectionViewTests" */;
+			buildPhases = (
+				34ED34CD1A2419730096C5A6 /* Sources */,
+				34ED34CE1A2419730096C5A6 /* Frameworks */,
+				34ED34CF1A2419730096C5A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34ED34D31A2419730096C5A6 /* PBXTargetDependency */,
+			);
+			name = LessonUICollectionViewTests;
+			productName = LessonUICollectionViewTests;
+			productReference = 34ED34D11A2419730096C5A6 /* LessonUICollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34ED34B61A2419720096C5A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "王军鑫";
+				TargetAttributes = {
+					34ED34BD1A2419720096C5A6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					34ED34D01A2419730096C5A6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 34ED34BD1A2419720096C5A6;
+					};
+				};
+			};
+			buildConfigurationList = 34ED34B91A2419720096C5A6 /* Build configuration list for PBXProject "LessonUICollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34ED34B51A2419720096C5A6;
+			productRefGroup = 34ED34BF1A2419720096C5A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34ED34BD1A2419720096C5A6 /* LessonUICollectionView */,
+				34ED34D01A2419730096C5A6 /* LessonUICollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34ED34BC1A2419720096C5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346750331A24C482006FC843 /* mm6.jpg in Resources */,
+				3467502D1A24C482006FC843 /* mm0.jpg in Resources */,
+				3467502E1A24C482006FC843 /* mm1.jpg in Resources */,
+				3467502F1A24C482006FC843 /* mm2.jpg in Resources */,
+				346750301A24C482006FC843 /* mm3.jpg in Resources */,
+				346750311A24C482006FC843 /* mm4.jpg in Resources */,
+				346750321A24C482006FC843 /* mm5.jpg in Resources */,
+				34ED34CC1A2419720096C5A6 /* LaunchScreen.xib in Resources */,
+				34ED34C91A2419720096C5A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ED34CF1A2419730096C5A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34ED34BA1A2419720096C5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED34F61A2423F50096C5A6 /* EGOImageView.m in Sources */,
+				34ED34F51A2423F50096C5A6 /* EGOImageLoader.m in Sources */,
+				34ED34E61A2423B10096C5A6 /* WifeCell.m in Sources */,
+				346750361A24D1B8006FC843 /* BarController.m in Sources */,
+				34ED34C71A2419720096C5A6 /* AppDelegate.m in Sources */,
+				34ED34C41A2419720096C5A6 /* main.m in Sources */,
+				34ED34F31A2423F50096C5A6 /* EGOImageButton.m in Sources */,
+				34ED34F41A2423F50096C5A6 /* EGOImageLoadConnection.m in Sources */,
+				34ED34E31A2419B90096C5A6 /* RootViewController.m in Sources */,
+				34ED34F21A2423F50096C5A6 /* EGOCache.m in Sources */,
+				346750241A24C119006FC843 /* ReuseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34ED34CD1A2419730096C5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED34D81A2419730096C5A6 /* LessonUICollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34ED34D31A2419730096C5A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34ED34BD1A2419720096C5A6 /* LessonUICollectionView */;
+			targetProxy = 34ED34D21A2419730096C5A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34ED34CA1A2419720096C5A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34ED34CB1A2419720096C5A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34ED34D91A2419730096C5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34ED34DA1A2419730096C5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34ED34DC1A2419730096C5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LessonUICollectionView/wang.pch";
+				INFOPLIST_FILE = LessonUICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34ED34DD1A2419730096C5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LessonUICollectionView/wang.pch";
+				INFOPLIST_FILE = LessonUICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34ED34DF1A2419730096C5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LessonUICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUICollectionView.app/LessonUICollectionView";
+			};
+			name = Debug;
+		};
+		34ED34E01A2419730096C5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LessonUICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUICollectionView.app/LessonUICollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34ED34B91A2419720096C5A6 /* Build configuration list for PBXProject "LessonUICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ED34D91A2419730096C5A6 /* Debug */,
+				34ED34DA1A2419730096C5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34ED34DB1A2419730096C5A6 /* Build configuration list for PBXNativeTarget "LessonUICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ED34DC1A2419730096C5A6 /* Debug */,
+				34ED34DD1A2419730096C5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34ED34DE1A2419730096C5A6 /* Build configuration list for PBXNativeTarget "LessonUICollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34ED34DF1A2419730096C5A6 /* Debug */,
+				34ED34E01A2419730096C5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34ED34B61A2419720096C5A6 /* Project object */;
+}

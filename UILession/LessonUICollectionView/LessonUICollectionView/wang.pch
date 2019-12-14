@@ -1,0 +1,15 @@
+//
+//  wang.pch
+//  LessonUICollectionView
+//
+//  Created by lanouhn on 14/11/25.
+//  Copyright (c) 2014年 王军鑫. All rights reserved.
+//
+
+#ifndef LessonUICollectionView_wang_pch
+
+#define LessonUICollectionView_wang_pch
+
+#import <UIKit/UIKit.h>
+#import "Header.h"
+#endif

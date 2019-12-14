@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="redview" destination="M3N-g0-AWq" id="O2o-xl-mGf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M3N-g0-AWq">
+                    <rect key="frame" x="32" y="211" width="90" height="50"/>
+                    <color key="backgroundColor" red="0.66144132609999995" green="0.13088152380000001" blue="0.1078361419" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="M3N-g0-AWq" secondAttribute="height" multiplier="9:5" id="DMl-vl-Xu4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOR-dR-98l">
+                    <rect key="frame" x="184" y="211" width="119" height="50"/>
+                    <color key="backgroundColor" red="0.48627454040000001" green="1" blue="0.6549019814" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VOR-dR-98l" secondAttribute="height" multiplier="119:50" id="vgD-5D-mfJ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rou-bz-eJz">
+                    <rect key="frame" x="145" y="329" width="32" height="30"/>
+                    <color key="backgroundColor" red="0.68464064599999996" green="0.74328577529999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="click">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="0c4e1f4ac98f9bba5e57c49b125d2f96.png"/>
+                    <connections>
+                        <action selector="clickAction:" destination="-1" eventType="touchUpInside" id="syx-Lz-CAv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="M3N-g0-AWq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="4L9-Ts-tU0"/>
+                <constraint firstItem="VOR-dR-98l" firstAttribute="height" secondItem="M3N-g0-AWq" secondAttribute="height" id="MT7-IX-ysb"/>
+                <constraint firstItem="VOR-dR-98l" firstAttribute="leading" secondItem="M3N-g0-AWq" secondAttribute="trailing" constant="62" id="NZR-kw-pmp"/>
+                <constraint firstItem="VOR-dR-98l" firstAttribute="width" secondItem="M3N-g0-AWq" secondAttribute="width" id="UFE-3g-BFM"/>
+                <constraint firstAttribute="trailing" secondItem="VOR-dR-98l" secondAttribute="trailing" constant="17" id="WyW-mC-ye1"/>
+                <constraint firstItem="M3N-g0-AWq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="211" id="aKj-9K-dy6"/>
+                <constraint firstItem="VOR-dR-98l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="211" id="hst-IS-9kZ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="340" y="321"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t03-I7-AVS">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" title="Button">
+                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+            </state>
+        </button>
+    </objects>
+    <resources>
+        <image name="0c4e1f4ac98f9bba5e57c49b125d2f96.png" width="3402" height="3402"/>
+    </resources>
+</document>

@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3463D5BE1A0CEADE00254091 /* 于露.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A01A0CEADE00254091 /* 于露.png */; };
+		3463D5BF1A0CEADE00254091 /* 何亚慧.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A11A0CEADE00254091 /* 何亚慧.png */; };
+		3463D5C01A0CEADE00254091 /* 余立立.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A21A0CEADE00254091 /* 余立立.png */; };
+		3463D5C11A0CEADE00254091 /* 周华定.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A31A0CEADE00254091 /* 周华定.png */; };
+		3463D5C21A0CEADE00254091 /* 周清城.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A41A0CEADE00254091 /* 周清城.png */; };
+		3463D5C31A0CEADE00254091 /* 姜俊甫.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A51A0CEADE00254091 /* 姜俊甫.png */; };
+		3463D5C41A0CEADE00254091 /* 宋利军.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A61A0CEADE00254091 /* 宋利军.png */; };
+		3463D5C51A0CEADE00254091 /* 常超群.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A71A0CEADE00254091 /* 常超群.png */; };
+		3463D5C61A0CEADE00254091 /* 张博.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A81A0CEADE00254091 /* 张博.png */; };
+		3463D5C71A0CEADE00254091 /* 张壮.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5A91A0CEADE00254091 /* 张壮.png */; };
+		3463D5C81A0CEADE00254091 /* 徐思吉.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AA1A0CEADE00254091 /* 徐思吉.png */; };
+		3463D5C91A0CEADE00254091 /* 曹晓阳.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AB1A0CEADE00254091 /* 曹晓阳.png */; };
+		3463D5CA1A0CEADE00254091 /* 朱凯华.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AC1A0CEADE00254091 /* 朱凯华.png */; };
+		3463D5CB1A0CEADE00254091 /* 杜博.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AD1A0CEADE00254091 /* 杜博.png */; };
+		3463D5CC1A0CEADE00254091 /* 潘磊.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AE1A0CEADE00254091 /* 潘磊.png */; };
+		3463D5CD1A0CEADE00254091 /* 王伟海.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5AF1A0CEADE00254091 /* 王伟海.png */; };
+		3463D5CE1A0CEADE00254091 /* 王军鑫.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B01A0CEADE00254091 /* 王军鑫.png */; };
+		3463D5CF1A0CEADE00254091 /* 王力.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B11A0CEADE00254091 /* 王力.png */; };
+		3463D5D01A0CEADE00254091 /* 王春平.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B21A0CEADE00254091 /* 王春平.png */; };
+		3463D5D11A0CEADE00254091 /* 王艳艳.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B31A0CEADE00254091 /* 王艳艳.png */; };
+		3463D5D21A0CEADE00254091 /* 胡亚辉.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B41A0CEADE00254091 /* 胡亚辉.png */; };
+		3463D5D31A0CEADE00254091 /* 董智勇.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B51A0CEADE00254091 /* 董智勇.png */; };
+		3463D5D41A0CEADE00254091 /* 蒋晓飞.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B61A0CEADE00254091 /* 蒋晓飞.png */; };
+		3463D5D51A0CEADE00254091 /* 袁风光.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B71A0CEADE00254091 /* 袁风光.png */; };
+		3463D5D61A0CEADE00254091 /* 路东亮.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B81A0CEADE00254091 /* 路东亮.png */; };
+		3463D5D71A0CEADE00254091 /* 道自元.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5B91A0CEADE00254091 /* 道自元.png */; };
+		3463D5D81A0CEADE00254091 /* 郝亚超.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5BA1A0CEADE00254091 /* 郝亚超.png */; };
+		3463D5D91A0CEADE00254091 /* 高强.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5BB1A0CEADE00254091 /* 高强.png */; };
+		3463D5DA1A0CEADE00254091 /* 高祺.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5BC1A0CEADE00254091 /* 高祺.png */; };
+		3463D5DB1A0CEADE00254091 /* 黄克刚.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D5BD1A0CEADE00254091 /* 黄克刚.png */; };
+		3463D60C1A0D03E500254091 /* 范玉贞.png in Resources */ = {isa = PBXBuildFile; fileRef = 3463D60B1A0D03E500254091 /* 范玉贞.png */; };
+		34D4FF721A0C646800DFC147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4FF711A0C646800DFC147 /* main.m */; };
+		34D4FF751A0C646800DFC147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4FF741A0C646800DFC147 /* AppDelegate.m */; };
+		34D4FF771A0C646800DFC147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D4FF761A0C646800DFC147 /* Images.xcassets */; };
+		34D4FF7A1A0C646800DFC147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4FF781A0C646800DFC147 /* LaunchScreen.xib */; };
+		34D4FF861A0C646800DFC147 /* LessonUITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4FF851A0C646800DFC147 /* LessonUITableViewTests.m */; };
+		34D4FF911A0C64B700DFC147 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4FF901A0C64B700DFC147 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D4FF801A0C646800DFC147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D4FF641A0C646700DFC147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D4FF6B1A0C646800DFC147;
+			remoteInfo = LessonUITableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3463D5A01A0CEADE00254091 /* 于露.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "于露.png"; sourceTree = "<group>"; };
+		3463D5A11A0CEADE00254091 /* 何亚慧.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "何亚慧.png"; sourceTree = "<group>"; };
+		3463D5A21A0CEADE00254091 /* 余立立.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "余立立.png"; sourceTree = "<group>"; };
+		3463D5A31A0CEADE00254091 /* 周华定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "周华定.png"; sourceTree = "<group>"; };
+		3463D5A41A0CEADE00254091 /* 周清城.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "周清城.png"; sourceTree = "<group>"; };
+		3463D5A51A0CEADE00254091 /* 姜俊甫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "姜俊甫.png"; sourceTree = "<group>"; };
+		3463D5A61A0CEADE00254091 /* 宋利军.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宋利军.png"; sourceTree = "<group>"; };
+		3463D5A71A0CEADE00254091 /* 常超群.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "常超群.png"; sourceTree = "<group>"; };
+		3463D5A81A0CEADE00254091 /* 张博.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "张博.png"; sourceTree = "<group>"; };
+		3463D5A91A0CEADE00254091 /* 张壮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "张壮.png"; sourceTree = "<group>"; };
+		3463D5AA1A0CEADE00254091 /* 徐思吉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "徐思吉.png"; sourceTree = "<group>"; };
+		3463D5AB1A0CEADE00254091 /* 曹晓阳.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "曹晓阳.png"; sourceTree = "<group>"; };
+		3463D5AC1A0CEADE00254091 /* 朱凯华.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朱凯华.png"; sourceTree = "<group>"; };
+		3463D5AD1A0CEADE00254091 /* 杜博.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杜博.png"; sourceTree = "<group>"; };
+		3463D5AE1A0CEADE00254091 /* 潘磊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "潘磊.png"; sourceTree = "<group>"; };
+		3463D5AF1A0CEADE00254091 /* 王伟海.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王伟海.png"; sourceTree = "<group>"; };
+		3463D5B01A0CEADE00254091 /* 王军鑫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王军鑫.png"; sourceTree = "<group>"; };
+		3463D5B11A0CEADE00254091 /* 王力.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王力.png"; sourceTree = "<group>"; };
+		3463D5B21A0CEADE00254091 /* 王春平.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王春平.png"; sourceTree = "<group>"; };
+		3463D5B31A0CEADE00254091 /* 王艳艳.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王艳艳.png"; sourceTree = "<group>"; };
+		3463D5B41A0CEADE00254091 /* 胡亚辉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "胡亚辉.png"; sourceTree = "<group>"; };
+		3463D5B51A0CEADE00254091 /* 董智勇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "董智勇.png"; sourceTree = "<group>"; };
+		3463D5B61A0CEADE00254091 /* 蒋晓飞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蒋晓飞.png"; sourceTree = "<group>"; };
+		3463D5B71A0CEADE00254091 /* 袁风光.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "袁风光.png"; sourceTree = "<group>"; };
+		3463D5B81A0CEADE00254091 /* 路东亮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路东亮.png"; sourceTree = "<group>"; };
+		3463D5B91A0CEADE00254091 /* 道自元.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "道自元.png"; sourceTree = "<group>"; };
+		3463D5BA1A0CEADE00254091 /* 郝亚超.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "郝亚超.png"; sourceTree = "<group>"; };
+		3463D5BB1A0CEADE00254091 /* 高强.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高强.png"; sourceTree = "<group>"; };
+		3463D5BC1A0CEADE00254091 /* 高祺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高祺.png"; sourceTree = "<group>"; };
+		3463D5BD1A0CEADE00254091 /* 黄克刚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄克刚.png"; sourceTree = "<group>"; };
+		3463D60B1A0D03E500254091 /* 范玉贞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "范玉贞.png"; sourceTree = "<group>"; };
+		34D4FF6C1A0C646800DFC147 /* LessonUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4FF701A0C646800DFC147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D4FF711A0C646800DFC147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34D4FF731A0C646800DFC147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34D4FF741A0C646800DFC147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34D4FF761A0C646800DFC147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34D4FF791A0C646800DFC147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34D4FF7F1A0C646800DFC147 /* LessonUITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonUITableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4FF841A0C646800DFC147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D4FF851A0C646800DFC147 /* LessonUITableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUITableViewTests.m; sourceTree = "<group>"; };
+		34D4FF8F1A0C64B700DFC147 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34D4FF901A0C64B700DFC147 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D4FF691A0C646800DFC147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4FF7C1A0C646800DFC147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3463D59F1A0CEADE00254091 /* 班级成员 */ = {
+			isa = PBXGroup;
+			children = (
+				3463D60B1A0D03E500254091 /* 范玉贞.png */,
+				3463D5A01A0CEADE00254091 /* 于露.png */,
+				3463D5A11A0CEADE00254091 /* 何亚慧.png */,
+				3463D5A21A0CEADE00254091 /* 余立立.png */,
+				3463D5A31A0CEADE00254091 /* 周华定.png */,
+				3463D5A41A0CEADE00254091 /* 周清城.png */,
+				3463D5A51A0CEADE00254091 /* 姜俊甫.png */,
+				3463D5A61A0CEADE00254091 /* 宋利军.png */,
+				3463D5A71A0CEADE00254091 /* 常超群.png */,
+				3463D5A81A0CEADE00254091 /* 张博.png */,
+				3463D5A91A0CEADE00254091 /* 张壮.png */,
+				3463D5AA1A0CEADE00254091 /* 徐思吉.png */,
+				3463D5AB1A0CEADE00254091 /* 曹晓阳.png */,
+				3463D5AC1A0CEADE00254091 /* 朱凯华.png */,
+				3463D5AD1A0CEADE00254091 /* 杜博.png */,
+				3463D5AE1A0CEADE00254091 /* 潘磊.png */,
+				3463D5AF1A0CEADE00254091 /* 王伟海.png */,
+				3463D5B01A0CEADE00254091 /* 王军鑫.png */,
+				3463D5B11A0CEADE00254091 /* 王力.png */,
+				3463D5B21A0CEADE00254091 /* 王春平.png */,
+				3463D5B31A0CEADE00254091 /* 王艳艳.png */,
+				3463D5B41A0CEADE00254091 /* 胡亚辉.png */,
+				3463D5B51A0CEADE00254091 /* 董智勇.png */,
+				3463D5B61A0CEADE00254091 /* 蒋晓飞.png */,
+				3463D5B71A0CEADE00254091 /* 袁风光.png */,
+				3463D5B81A0CEADE00254091 /* 路东亮.png */,
+				3463D5B91A0CEADE00254091 /* 道自元.png */,
+				3463D5BA1A0CEADE00254091 /* 郝亚超.png */,
+				3463D5BB1A0CEADE00254091 /* 高强.png */,
+				3463D5BC1A0CEADE00254091 /* 高祺.png */,
+				3463D5BD1A0CEADE00254091 /* 黄克刚.png */,
+			);
+			path = "班级成员";
+			sourceTree = "<group>";
+		};
+		34D4FF631A0C646700DFC147 = {
+			isa = PBXGroup;
+			children = (
+				34D4FF6E1A0C646800DFC147 /* LessonUITableView */,
+				34D4FF821A0C646800DFC147 /* LessonUITableViewTests */,
+				34D4FF6D1A0C646800DFC147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D4FF6D1A0C646800DFC147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D4FF6C1A0C646800DFC147 /* LessonUITableView.app */,
+				34D4FF7F1A0C646800DFC147 /* LessonUITableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D4FF6E1A0C646800DFC147 /* LessonUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				3463D59F1A0CEADE00254091 /* 班级成员 */,
+				34D4FF731A0C646800DFC147 /* AppDelegate.h */,
+				34D4FF741A0C646800DFC147 /* AppDelegate.m */,
+				34D4FF8F1A0C64B700DFC147 /* RootViewController.h */,
+				34D4FF901A0C64B700DFC147 /* RootViewController.m */,
+				34D4FF761A0C646800DFC147 /* Images.xcassets */,
+				34D4FF781A0C646800DFC147 /* LaunchScreen.xib */,
+				34D4FF6F1A0C646800DFC147 /* Supporting Files */,
+			);
+			path = LessonUITableView;
+			sourceTree = "<group>";
+		};
+		34D4FF6F1A0C646800DFC147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D4FF701A0C646800DFC147 /* Info.plist */,
+				34D4FF711A0C646800DFC147 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34D4FF821A0C646800DFC147 /* LessonUITableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34D4FF851A0C646800DFC147 /* LessonUITableViewTests.m */,
+				34D4FF831A0C646800DFC147 /* Supporting Files */,
+			);
+			path = LessonUITableViewTests;
+			sourceTree = "<group>";
+		};
+		34D4FF831A0C646800DFC147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D4FF841A0C646800DFC147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D4FF6B1A0C646800DFC147 /* LessonUITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D4FF891A0C646800DFC147 /* Build configuration list for PBXNativeTarget "LessonUITableView" */;
+			buildPhases = (
+				34D4FF681A0C646800DFC147 /* Sources */,
+				34D4FF691A0C646800DFC147 /* Frameworks */,
+				34D4FF6A1A0C646800DFC147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessonUITableView;
+			productName = LessonUITableView;
+			productReference = 34D4FF6C1A0C646800DFC147 /* LessonUITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D4FF7E1A0C646800DFC147 /* LessonUITableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D4FF8C1A0C646800DFC147 /* Build configuration list for PBXNativeTarget "LessonUITableViewTests" */;
+			buildPhases = (
+				34D4FF7B1A0C646800DFC147 /* Sources */,
+				34D4FF7C1A0C646800DFC147 /* Frameworks */,
+				34D4FF7D1A0C646800DFC147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D4FF811A0C646800DFC147 /* PBXTargetDependency */,
+			);
+			name = LessonUITableViewTests;
+			productName = LessonUITableViewTests;
+			productReference = 34D4FF7F1A0C646800DFC147 /* LessonUITableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D4FF641A0C646700DFC147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "王军鑫";
+				TargetAttributes = {
+					34D4FF6B1A0C646800DFC147 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					34D4FF7E1A0C646800DFC147 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 34D4FF6B1A0C646800DFC147;
+					};
+				};
+			};
+			buildConfigurationList = 34D4FF671A0C646700DFC147 /* Build configuration list for PBXProject "LessonUITableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D4FF631A0C646700DFC147;
+			productRefGroup = 34D4FF6D1A0C646800DFC147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D4FF6B1A0C646800DFC147 /* LessonUITableView */,
+				34D4FF7E1A0C646800DFC147 /* LessonUITableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D4FF6A1A0C646800DFC147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3463D5DA1A0CEADE00254091 /* 高祺.png in Resources */,
+				3463D5C11A0CEADE00254091 /* 周华定.png in Resources */,
+				3463D5C61A0CEADE00254091 /* 张博.png in Resources */,
+				3463D5DB1A0CEADE00254091 /* 黄克刚.png in Resources */,
+				3463D5D71A0CEADE00254091 /* 道自元.png in Resources */,
+				3463D5BF1A0CEADE00254091 /* 何亚慧.png in Resources */,
+				3463D5CD1A0CEADE00254091 /* 王伟海.png in Resources */,
+				3463D5D91A0CEADE00254091 /* 高强.png in Resources */,
+				34D4FF7A1A0C646800DFC147 /* LaunchScreen.xib in Resources */,
+				3463D5D11A0CEADE00254091 /* 王艳艳.png in Resources */,
+				3463D5D31A0CEADE00254091 /* 董智勇.png in Resources */,
+				3463D5C21A0CEADE00254091 /* 周清城.png in Resources */,
+				3463D5D81A0CEADE00254091 /* 郝亚超.png in Resources */,
+				3463D5CE1A0CEADE00254091 /* 王军鑫.png in Resources */,
+				3463D5D61A0CEADE00254091 /* 路东亮.png in Resources */,
+				3463D60C1A0D03E500254091 /* 范玉贞.png in Resources */,
+				34D4FF771A0C646800DFC147 /* Images.xcassets in Resources */,
+				3463D5BE1A0CEADE00254091 /* 于露.png in Resources */,
+				3463D5C41A0CEADE00254091 /* 宋利军.png in Resources */,
+				3463D5C81A0CEADE00254091 /* 徐思吉.png in Resources */,
+				3463D5CA1A0CEADE00254091 /* 朱凯华.png in Resources */,
+				3463D5D01A0CEADE00254091 /* 王春平.png in Resources */,
+				3463D5D41A0CEADE00254091 /* 蒋晓飞.png in Resources */,
+				3463D5D51A0CEADE00254091 /* 袁风光.png in Resources */,
+				3463D5CC1A0CEADE00254091 /* 潘磊.png in Resources */,
+				3463D5C91A0CEADE00254091 /* 曹晓阳.png in Resources */,
+				3463D5CB1A0CEADE00254091 /* 杜博.png in Resources */,
+				3463D5CF1A0CEADE00254091 /* 王力.png in Resources */,
+				3463D5C51A0CEADE00254091 /* 常超群.png in Resources */,
+				3463D5C01A0CEADE00254091 /* 余立立.png in Resources */,
+				3463D5C31A0CEADE00254091 /* 姜俊甫.png in Resources */,
+				3463D5D21A0CEADE00254091 /* 胡亚辉.png in Resources */,
+				3463D5C71A0CEADE00254091 /* 张壮.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4FF7D1A0C646800DFC147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D4FF681A0C646800DFC147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4FF751A0C646800DFC147 /* AppDelegate.m in Sources */,
+				34D4FF721A0C646800DFC147 /* main.m in Sources */,
+				34D4FF911A0C64B700DFC147 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4FF7B1A0C646800DFC147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4FF861A0C646800DFC147 /* LessonUITableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34D4FF811A0C646800DFC147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D4FF6B1A0C646800DFC147 /* LessonUITableView */;
+			targetProxy = 34D4FF801A0C646800DFC147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34D4FF781A0C646800DFC147 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D4FF791A0C646800DFC147 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34D4FF871A0C646800DFC147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34D4FF881A0C646800DFC147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D4FF8A1A0C646800DFC147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LessonUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34D4FF8B1A0C646800DFC147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LessonUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34D4FF8D1A0C646800DFC147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LessonUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUITableView.app/LessonUITableView";
+			};
+			name = Debug;
+		};
+		34D4FF8E1A0C646800DFC147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LessonUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUITableView.app/LessonUITableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D4FF671A0C646700DFC147 /* Build configuration list for PBXProject "LessonUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4FF871A0C646800DFC147 /* Debug */,
+				34D4FF881A0C646800DFC147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D4FF891A0C646800DFC147 /* Build configuration list for PBXNativeTarget "LessonUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4FF8A1A0C646800DFC147 /* Debug */,
+				34D4FF8B1A0C646800DFC147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D4FF8C1A0C646800DFC147 /* Build configuration list for PBXNativeTarget "LessonUITableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4FF8D1A0C646800DFC147 /* Debug */,
+				34D4FF8E1A0C646800DFC147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D4FF641A0C646700DFC147 /* Project object */;
+}
